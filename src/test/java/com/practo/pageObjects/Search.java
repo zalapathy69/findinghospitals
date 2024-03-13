@@ -87,7 +87,7 @@ public class Search extends BasePage {
 	// Select filter by number of stories required
 	public void filterByPatientStories(String numberOfStories) {
 		patientStoriesDropdown.click();
-		patientStoriesCountSelector.get(1).click();
+		patientStoriesCountSelector.get(0).click();
 	}
 
 	// Return number of doctors displayed as result
