@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="25" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T08:48:31 IST" name="Suite" finished-at="2024-03-01T08:53:52 IST" duration-ms="321370">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-01T08:48:31 IST" name="Test" finished-at="2024-03-01T08:53:52 IST" duration-ms="321370">
+      <class name="com.practo.testRunner.TestNGRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:48:31 IST" name="setUpClass" finished-at="2024-03-01T08:48:32 IST" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74be992a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:48:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:49:10 IST" duration-ms="37919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for doctors using the specified filters and accquire top five results"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End happy flow execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:49:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:49:20 IST" duration-ms="10021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extract the surgeries listed as Popular Surgeries on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End happy flow execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:49:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:49:37 IST" duration-ms="17052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify form submission with correct details by capturing Thank You message on the Health and Wellness page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End to End happy flow execution"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:49:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:49:52 IST" duration-ms="15470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if the submit button is disabled with incorrect details on the Health and Wellness Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Health and Wellness"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:49:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:50:15 IST" duration-ms="22313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if the submit button is disabled with incorrect details on the Health and Wellness Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Health and Wellness"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:50:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:50:25 IST" duration-ms="9786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if the submit button is disabled with incorrect details on the Health and Wellness Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Health and Wellness"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:50:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:50:34 IST" duration-ms="9839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify if submit button enabled with correct details on the Health and Wellness Plan page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Health and Wellness"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:50:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:50:40 IST" duration-ms="6023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation items on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:50:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:50:47 IST" duration-ms="6563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation items on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:50:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:50:55 IST" duration-ms="8044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation items on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:50:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:51:01 IST" duration-ms="6034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation items on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:51:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:51:07 IST" duration-ms="6379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify navigation items on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:51:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:51:33 IST" duration-ms="25326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter doctors by patient stories on the Search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:51:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:51:49 IST" duration-ms="16551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter doctors by fees on the Search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:51:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:52:05 IST" duration-ms="15339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter doctors by fees on the Search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:52:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:52:21 IST" duration-ms="16426" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter doctors by availability on the Search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-qa-id='omni-suggestion-main' and text()='Chennai']"}
+  (Session info: chrome=121.0.6167.189)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [adc5416597c08815ebac96045228db4f, findElement {using=xpath, value=//div[@data-qa-id='omni-suggestion-main' and text()='Chennai']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.189, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58457/devtoo..., se:cdpVersion: 121.0.6167.189, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adc5416597c08815ebac96045228db4f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@data-qa-id='omni-suggestion-main' and text()='Chennai']"}
+  (Session info: chrome=121.0.6167.189)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [adc5416597c08815ebac96045228db4f, findElement {using=xpath, value=//div[@data-qa-id='omni-suggestion-main' and text()='Chennai']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.189, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58457}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58457/devtoo..., se:cdpVersion: 121.0.6167.189, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adc5416597c08815ebac96045228db4f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source)
+at com.practo.pageObjects.Search.searchForLocation(Search.java:69)
+at com.practo.stepDefinitions.SearchSteps.user_selects_location_as(SearchSteps.java:27)
+at ✽.user selects location as "Chennai"(file:///C:/Users/Dell/eclipse-workspace/FindingHospitalsProject.zip_expanded/FindingHospitals/./FeatureFiles/search.feature:33)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:52:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:52:34 IST" duration-ms="13281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter doctors by video consult availability on the Search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:52:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:52:48 IST" duration-ms="14039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Filter doctors location in Chennai on the Search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:52:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:52:58 IST" duration-ms="9298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify consultation form submission with correct details on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Surgeries"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:52:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:53:05 IST" duration-ms="7375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify consultation form submission with wrong name on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Surgeries"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:53:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:53:13 IST" duration-ms="7662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify consultation form submission with wrong contact number on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Surgeries"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:53:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:53:21 IST" duration-ms="8048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify consultation form submission with wrong contact number on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Surgeries"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:53:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:53:29 IST" duration-ms="8102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify consultation form submission with wrong name and contact number on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Surgeries"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:53:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:53:35 IST" duration-ms="5769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify surgeries form popup message on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Surgeries"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:53:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:53:44 IST" duration-ms="9128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify surgeries form submission with correct details on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Surgeries"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:53:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-01T08:53:51 IST" duration-ms="7123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify surgeries form submission with incorrect details on the Surgeries page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Surgeries"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.practo.testRunner.TestNGRunner@f1da57d]" started-at="2024-03-01T08:53:51 IST" name="tearDownClass" finished-at="2024-03-01T08:53:52 IST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.practo.testRunner.TestNGRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
